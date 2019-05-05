@@ -8,7 +8,7 @@
 .main-article{
     display: flex;
     padding: 1%;
-    width: 75%;
+    width: 72%;
     border: 1px solid;
     margin: 0.5% 1% 0 0;
 }
@@ -21,6 +21,7 @@
     flex-direction: column;
     width: 60%;
     padding-right: 1%;
+    text-align: center;
 }
 
 .extra-main-news{
@@ -96,7 +97,7 @@ width: 40% ;
 .item{
     height: auto;
     padding: 5% 0 5% 0 ;
-    border-bottom: 1px dotted;
+    border-bottom: 2px dotted;
 }
 .item a:hover{
     color: #0F76AE;
@@ -108,7 +109,7 @@ width: 40% ;
     }
     .main-article{
         flex-direction: column;
-        width: 100%;
+        width: 96.5%;
     }
     .main-image{
         width: 100%;
@@ -122,4 +123,11 @@ width: 40% ;
     .p{
         order: 1;
     }
+    .extra-main-news{
+        width: 96%;
+    }
+    .top-news{
+        width: 96%;
+    }
+    
 }
