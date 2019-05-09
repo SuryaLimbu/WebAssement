@@ -1,13 +1,21 @@
+
+/*body*/
 body{
     font-family:sans-serif;
 }
+/*navbar*/
 .navbar{
-	background-color: #ee002d;
+	background-color: #e12b38;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    margin-bottom: 1%;
+
 
 }
 .nav-top{
     display: flex;
 }
+/*navigation header*/
 .navbar-header a{
     color: white;
     text-decoration: none;
@@ -20,6 +28,7 @@ body{
     height: 50px;
 
 }
+/*navigation login*/
 .login{
     width: 40%;
    display: flex;
@@ -41,6 +50,7 @@ a{
     text-decoration: none;
     color: white;
 }
+/*navigation brand name*/
 .navbar-brand{
     font-size: 30px;
     
@@ -49,10 +59,11 @@ a{
     font-size: 40px;
     text-transform: capitalize;
 }
+/**toogle menu*/
 .togglearea{
     width: 98%;
     display: flex;
-    background-color: #757575;
+    background-color:#292930;
     justify-content: flex-end;
     border-bottom: 1px solid white;
     padding: 1%;
@@ -80,16 +91,18 @@ a{
 #toggle{
     display: none;
 }
-.container-fluid{
-	display: flex;
-    background-color:#FFFFFF;
-    border-bottom: 2px solid black;
-    
-   
-}
 .togglearea{
     display: none;
 }
+/*Container section on navigation*/
+.container-fluid{
+	display: flex;
+    background-color:#FFFFFF;
+    
+    
+   
+}
+
 .navbar-nav{
     display:flex;
 	width: 70%;
@@ -113,7 +126,7 @@ a{
     
 }
 .navbar-nav li:hover{
-	background-color: #ee002d;
+	background-color: #e12b38;
     color:#FFFFFF;
     font-weight: 700;
  
@@ -162,11 +175,38 @@ width: 100%;
 /*Footer section here..*/
 
 .footer{
-    background-color:#222023;
+    width: 98%;
+    background-color:#e12b38;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    text-align: left;
+}
+.footer h3{
+    color: white;
+}
+.catalog{
+    width: 32%;
+    border-right: 1px solid white;
+    
+}
+.catalog h2{
+    color: none;
+    color: white;
+}
+.footer li{
+    display:block;
+    padding: 1%;
+    }
+.footer-details{
+    display: flex;
 }
 /* Social media*/
 .footer-social_media{
-    padding: 1%;
+    width: 32%;
+    padding-left: 1%;
+    border-right: 1px solid white;
+ 
 }
 .footer-social_media h3{
     color:white;
@@ -183,10 +223,19 @@ width: 100%;
     opacity: 0.7;
     
 }
+.contact-us{
+    width: 32%;
+    padding-left: 1%;
+}
 
 
 .footer li{
     list-style: none;
+}
+.copyright{
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 700px)
@@ -201,7 +250,7 @@ width: 100%;
     {
        
         flex-direction: column;
-        margin: 0;
+      margin: 0;
         padding: 0;
         width: 100%;
        text-align: center;
@@ -221,6 +270,13 @@ width: 100%;
     {
         width: 92%;
     }
+    .navbar-nav li:hover{
+	background-color: #929d9e;
+        color: none;
+    color:#FFFFFF;
+    font-weight: 700;
+ 
+}
     .navbar-search
     {
         width: 100%;
@@ -239,5 +295,27 @@ width: 100%;
         display: flex;
     }
    
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        border: none;
+        padding-left: 10%;
+    }
+    .catalog{
+        width: 100%;
+        border-right: none;
+    }
+    .footer-social_media{
+        width: 100%;
+        border-right: none;
+    }
+    .footer-details{
+        width: 100%;
+        flex-direction: column;
+    }
+    .copyright{
+        width: 100%;
+        flex-direction: column;
+    }
     
 }
