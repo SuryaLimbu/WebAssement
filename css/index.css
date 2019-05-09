@@ -26,6 +26,7 @@
     padding-right: 1%;
     text-align: center;
     border-right: 1px solid;
+    
 }
 
 .extra-main-news {
@@ -36,6 +37,7 @@
 
 .extra-main-news h2 {
     font-size: 18px;
+   
 }
 
 .extra-main-news img {
@@ -59,7 +61,6 @@
 
 .p {
     font-family: sans-serif;
-
 }
 
 .p li {
