@@ -33,10 +33,11 @@
 
 }
 
-.compare-web-jobs .jobs-details{
+.compare-web-jobs .jobs-details {
     border: 1px solid;
 }
-.compare-web-jobs .jobs-details li{
+
+.compare-web-jobs .jobs-details li {
     display: inline-block;
     width: 96%;
     padding: 1%;
